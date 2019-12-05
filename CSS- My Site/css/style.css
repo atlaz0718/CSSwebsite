@@ -1,0 +1,161 @@
+/*********TAG SELECTOR*********/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'merriweather', serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'sacramento', cursive;
+  font-weight: bold;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'montserat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'montserat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #66BFBF;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 5%;
+  color: #EAF6F6;
+  margin: 150px auto;
+
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/*********CLASS SELECTOR*********/
+.top-container {
+  background-color: #E3FEFA;
+  padding-top: 100px;
+}
+
+.student {
+  font-weight: normal;
+}
+
+.intro {
+  margin:auto;
+  width: 30%;
+}
+.middle-container {
+  background-color: white;
+  margin: 100px 0;
+
+}
+.pprofile {
+  border-radius: 50%;
+  border-style: solid;
+  width: 240px;
+  height: 180px;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+
+}
+
+.photogiphy {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.eat-fast {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: teal;
+  height: 125px;
+  padding-top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+
+  top: 60px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.stud {
+  text-decoration: underline;
+}
+
+.thoughts {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright {
+  color: #EAf6f6;
+  font-size: 0.75rem;
+  padding-top: 50px;
+}
+
+.footer-link {
+  letter-spacing:2px;
+  word-spacing: 10px;
+}
+
+.btn {
+
+	background:linear-gradient(to bottom, #E3FEFA 5%, teal 100%);
+	background-color:#20BF55;
+	border-radius:21px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+
+
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #FC575E 5%, #90D5EC 100%);
+	background-color:#01BAEF;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*********ID SELECTOR*********/
